@@ -1,0 +1,33 @@
+{
+  "CLIENT": {
+        "TOKEN":" ",
+        "ID": "1110973410139439228",
+        "INVITE": "https://discord.com/api/oauth2/authorize?client_id=1110973410139439228&permissions=8&scope=bot%20applications.commands",
+        "WEBSITE": "https://reflex.rf.gd"
+    
+  },
+  "SETTINGS": {
+        "PREFIX": "!",
+        "MONGODB: " ",
+        "ErrorChannel": " ",
+        "CommandLogs": " ",
+        "bugandsuggestlogs": " ",
+        "GuildJoinAndLeaveLogs": " ",
+        "ConsoleLogs":" "
+  },
+  "DEV": {
+        "OWNER": "958038893331116062",
+        "CO_OWNER": ""
+  },
+  "SERVER": {
+        "OFFICIAL": {
+                "Guild_ID_1": "",
+                "Guild_ID_2": "",
+                "INVITE_LINK": ""
+        },
+        "TEST": {
+                "Guild_ID_1": "",
+                "Guild_ID_2": ""
+        }
+  }
+}
