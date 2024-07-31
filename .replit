@@ -1,13 +1,14 @@
 
 hidden = [".config" , "README.md"]
-run = "npx node ."
+run = "node index.js"
+modules = ["nodejs-20", "nix"]
 
 [[hints]]
 regex = "Error \\[ERR_REQUIRE_ESM\\]"
 message = "We see that you are using require(...) inside your code. We currently do not support this syntax. Please use 'import' instead when using external modules. (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import)"
 
 [nix]
-channel = "stable-21_11"
+channel = "stable-24_05"
 
 [env]
 XDG_CONFIG_HOME = "/home/runner/.config"
@@ -70,3 +71,6 @@ support = true
       sourceMaps = true
       stopOnEntry = false
       type = "pwa-node"
+
+[deployment]
+run = ["sh", "-c", "node index.js"]
